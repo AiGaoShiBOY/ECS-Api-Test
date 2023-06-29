@@ -9,8 +9,11 @@ How to deploy:
 mvn clean package
 ```
 And get `ECS-Api-Test.war` in `target`.
+
 2. Send `ECS-Api-Test.war` to `.../tomcat/webapps` on your ECS (Java Web environment is required).
-3. Goto `http://http://<ip>:<port>/ECS-api-test` in the browser, and see "Hello World".
+
+   
+3. Goto `http://http://<ip>:<port>/ECS-api-test` in the browser, and there should be a "Hello word" on the page.
 
 
 
